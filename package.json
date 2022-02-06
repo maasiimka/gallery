@@ -1,0 +1,19 @@
+{
+  "name": "jstraininggalery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --open --port 4444",
+    "build": "parcel build src/script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
